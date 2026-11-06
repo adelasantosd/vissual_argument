@@ -104,7 +104,7 @@ PROJECTS = [
 T = {
     "es": {
         "path": "/", "label": "Español",
-        "title": "Visual Argument",
+        "title": "Vissual Argument",
         "desc": "Una práctica para comunicar investigación compleja mediante formas visuales interactivas, con su evidencia y sus límites a la vista.",
         "skip": "Ir al contenido",
         "nav": ["Qué es", "Argumentos", "Origen", "Autora"],
@@ -122,7 +122,7 @@ T = {
         "open": "Abrir", "lang_of": "Idioma", "langs": {"EN": "inglés", "ES": "español"}, "data": "DOI", "code": "Código",
         "origin_h": "Origen",
         "origin": [
-            "Visual Argument es una práctica en evolución, dirigida por su autora, para comunicar investigación compleja mediante formas visuales interactivas. Pone a la vista la evidencia y los límites de un argumento para lectores más allá de su público especializado habitual.",
+            "Vissual Argument es una práctica en evolución, dirigida por su autora, para comunicar investigación compleja mediante formas visuales interactivas. Pone a la vista la evidencia y los límites de un argumento para lectores más allá de su público especializado habitual.",
             "Se inspira en la narración visual explicativa basada en datos, como el trabajo de The Pudding, y explora cómo ese enfoque puede servir a la investigación conceptual y empírica en ciencias sociales. Es un esfuerzo exploratorio.",
             "Parte de una convicción: la ciencia debe ser abierta. Contar un debate académico con una historia, una analogía o un objeto conocido permite que más personas lo lean, lo discutan y lo cuestionen.",
         ],
@@ -138,7 +138,7 @@ T = {
     },
     "en": {
         "path": "/en/", "label": "English",
-        "title": "Visual Argument",
+        "title": "Vissual Argument",
         "desc": "A practice for communicating complex research through interactive visual forms, with its evidence and limits in view.",
         "skip": "Skip to content",
         "nav": ["What it is", "Arguments", "Origin", "Author"],
@@ -156,7 +156,7 @@ T = {
         "open": "Open", "lang_of": "Language", "langs": {"EN": "English", "ES": "Spanish"}, "data": "DOI", "code": "Code",
         "origin_h": "Origin",
         "origin": [
-            "Visual Argument is an author-led, evolving practice for communicating complex research through interactive visual forms. It brings an argument’s evidence and limits into view for readers beyond its usual specialist audience.",
+            "Vissual Argument is an author-led, evolving practice for communicating complex research through interactive visual forms. It brings an argument’s evidence and limits into view for readers beyond its usual specialist audience.",
             "It draws on data-led explanatory visual storytelling, including work such as The Pudding, and explores how that approach may inform conceptual and empirical research in the social sciences. It is an exploratory effort.",
             "It starts from a conviction: science should be open. Telling an academic debate through a story, an analogy or a familiar object lets more people read it, discuss it and question it.",
         ],
@@ -172,7 +172,7 @@ T = {
     },
     "fr": {
         "path": "/fr/", "label": "Français",
-        "title": "Visual Argument",
+        "title": "Vissual Argument",
         "desc": "Une pratique pour communiquer une recherche complexe au moyen de formes visuelles interactives, en rendant visibles ses preuves et ses limites.",
         "skip": "Aller au contenu",
         "nav": ["Définition", "Arguments", "Origine", "Autrice"],
@@ -190,7 +190,7 @@ T = {
         "open": "Ouvrir", "lang_of": "Langue", "langs": {"EN": "anglais", "ES": "espagnol"}, "data": "DOI", "code": "Code",
         "origin_h": "Origine",
         "origin": [
-            "Visual Argument est une pratique évolutive, menée par son autrice, pour communiquer une recherche complexe au moyen de formes visuelles interactives. Elle rend visibles les preuves et les limites d’un argument pour un public qui dépasse les seuls spécialistes.",
+            "Vissual Argument est une pratique évolutive, menée par son autrice, pour communiquer une recherche complexe au moyen de formes visuelles interactives. Elle rend visibles les preuves et les limites d’un argument pour un public qui dépasse les seuls spécialistes.",
             "Elle s’inspire de la narration visuelle explicative fondée sur les données, notamment des travaux de The Pudding, et explore la manière dont cette approche peut nourrir la recherche conceptuelle et empirique en sciences sociales. C’est une démarche exploratoire.",
             "Elle part d’une conviction : la science doit être ouverte. Raconter un débat académique au moyen d’une histoire, d’une analogie ou d’un objet familier permet à davantage de personnes de le lire, d’en discuter et de le remettre en question.",
         ],
@@ -272,7 +272,7 @@ def page(lang):
 <link rel="canonical" href="{SITE}{t["path"]}">
 {alt}
 <link rel="alternate" hreflang="x-default" href="{SITE}/">
-<meta property="og:title" content="Visual Argument">
+<meta property="og:title" content="Vissual Argument">
 <meta property="og:description" content="{escape(t["desc"])}">
 <meta property="og:url" content="{SITE}{t["path"]}">
 <meta property="og:type" content="website">
@@ -283,7 +283,7 @@ def page(lang):
 <body>
 <a class="skip" href="#main">{t["skip"]}</a>
 <header class="top wrap">
-  <a class="brand" href="{t["path"]}">Visual Argument</a>
+  <a class="brand" href="{t["path"]}">Vissual Argument</a>
   <nav class="nav" aria-label="Secciones">{nav}</nav>
   <nav class="langs" aria-label="Idioma / Language / Langue">{switch}</nav>
 </header>
@@ -291,7 +291,7 @@ def page(lang):
 <main id="main">
 <section class="hero wrap">
   <p class="kicker">{t["kicker"]}</p>
-  <h1>Visual<br>Argument</h1>
+  <h1>Vissual<br>Argument</h1>
   <p class="lede">{escape(t["lede"])}</p>
 </section>
 
@@ -339,7 +339,7 @@ def page(lang):
 </main>
 
 <footer class="foot wrap">
-  <p>© 2026 {pr["name"]} · Visual Argument</p>
+  <p>© 2026 {pr["name"]} · Vissual Argument</p>
   <p class="ai">{escape(t["ai"])}</p>
 </footer>
 </body>

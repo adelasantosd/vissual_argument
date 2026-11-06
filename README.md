@@ -1,6 +1,6 @@
-# Visual Argument
+# Vissual Argument
 
-Hub site for **Visual Argument**, an author-led practice for communicating complex research through interactive visual forms, with the evidence and limits of each argument in view.
+Hub site for **Vissual Argument**, an author-led practice for communicating complex research through interactive visual forms, with the evidence and limits of each argument in view.
 
 - **Live site:** <https://visualargument.org> (Spanish), `/en/` (English), `/fr/` (French)
 - **Author:** Adela Santos Domínguez · [ORCID 0009-0009-1480-3668](https://orcid.org/0009-0009-1480-3668)
