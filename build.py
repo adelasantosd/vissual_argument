@@ -14,7 +14,7 @@ PUDDING = '<a href="https://pudding.cool/" target="_blank" rel="noopener">The Pu
 PERSON = {
     "name": "Adela Santos Domínguez",
     "email": "adela.santos@graduateinstitute.ch",
-    "orcid": "https://orcid.org/0009-0009-1480-3668",
+    "orcid": "https://orcid.org/0000-0002-8691-0544",
     "linkedin": "https://www.linkedin.com/in/adelasantos",
     "linktree": "https://linktr.ee/adela.santos",
     "github": "https://github.com/adelasantosd",
